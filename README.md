@@ -30,79 +30,31 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Support & Share](#support--share)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Cloud Desktop and Desktop-as-a-Service (DaaS) market is estimated at **$8.4B to $11.5B by 2026**, expanding at a double-digit CAGR (~11–19%) fueled by hybrid enterprise workforces and zero-trust security adoption. The sector exhibits a **barbell structure**: it is **concentrated and oligopolistic at the underlying hypervisor/hyperscaler infrastructure tier** (dominated by Microsoft Azure/Windows 365, AWS WorkSpaces, Citrix, and Omnissa), while remaining **moderately fragmented at the edge and application-delivery layer**, where specialized vendors compete aggressively on developer experience, multi-cloud orchestration, GPU workstation streaming, and browser-native container isolation.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Amazon WorkSpaces (AWS)](https://amazon.com)**  
-
-  Fully managed, persistent cloud Virtual Desktop Infrastructure (VDI) service delivering Windows, Linux, and Ubuntu desktops with global low-latency streaming.
-
-
-
-- **[Microsoft Dev Box & Windows 365](https://microsoft.com)**  
-
-  Cloud-hosted developer workstations and Cloud PCs pre-configured with project repositories, IDEs, and enterprise Intune governance.
-
-
-
-- **[Shadow PC](https://shadow.tech)**  
-
-  High-performance cloud gaming and creative workstation service streaming dedicated Windows PCs equipped with discrete NVIDIA GPUs.
-
-
-
-- **[Paperspace Core (DigitalOcean)](https://paperspace.com)**  
-
-  Cloud GPU virtual machine and desktop infrastructure offering low-latency browser streaming, persistent storage, and instant Linux/Windows workstation templates.
-
-
-
-- **[Citrix DaaS (Desktop as a Service)](https://citrix.com)**  
-
-  Enterprise hybrid-cloud VDI platform providing HDX remote display protocols, granular security policies, and virtualized app/desktop delivery.
-
-
-
-- **[Omnissa Horizon Cloud (formerly VMware Horizon Cloud)](https://omnissa.com)**  
-
-  Cloud-managed VDI and published application platform scaling virtual desktops across Microsoft Azure, Amazon WorkSpaces Core, and on-premise vSphere.
-
-
-
-- **[Dizzion Frame (formerly Frame by Nutanix)](https://dizzion.com)**  
-
-  Browser-native Desktop-as-a-Service platform streaming GPU-accelerated Windows and Linux applications directly into HTML5 browsers without client plugins.
-
-
-
-- **[Kasm Workspaces (Enterprise Cloud)](https://kasmweb.com)**  
-
-  Containerized Desktop Infrastructure (CDI) platform streaming isolated browser sessions, Linux desktops, and remote Windows VMs directly to web browsers.
-
-
-
-- **[V2 Cloud](https://v2cloud.com)**  
-
-  All-in-one managed Desktop-as-a-Service (DaaS) solution featuring built-in cloud storage, ransomware protection, and HTML5 web-client access.
-
-
-
-- **[AppOnFly](https://apponfly.com)**  
-
-  Instant cloud Windows VPS and remote desktop platform accessible via browser or RDP for running Windows software on macOS, Linux, and mobile devices.
+| Platform | Company Valuation / Revenue Scale | Starting Price | Free Tier Limits / Free Trial | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Dev Box & Windows 365](https://microsoft.com)** | **~$3.6T Market Cap** (~$261.8B–$305.5B FY Revenue) | **$28.00 / user / month** (Basic 2 vCPU, 4GB RAM, 128GB Cloud PC) | **1-month free trial** for Windows 365 Business (limited to 1 user license per tenant; credit card required). | Cloud-hosted developer workstations and Cloud PCs pre-configured with project repositories, IDEs, and enterprise Intune governance. |
+| **[Amazon WorkSpaces (AWS)](https://amazon.com)** | **~$2.4T Market Cap** (~$638B–$717B FY Revenue) | **$7.25 / month + $0.22 / hour** (AutoStop Value tier) or **$25.00 / month** (AlwaysOn flat tier) | **Up to 3-month free trial / $200 AWS credit**: provides 2 Standard AutoStop WorkSpaces up to 40 combined hours/month (80GB root + 50GB user volumes) or 5 Performance Ubuntu WorkSpaces up to 100 hours/month. | Fully managed, persistent cloud Virtual Desktop Infrastructure (VDI) service delivering Windows, Linux, and Ubuntu desktops with global low-latency streaming. |
+| **[Citrix DaaS](https://citrix.com)** | **~$16.5B Buyout Valuation** (CSG: ~$3.2B+ ARR) | **$10.00 / user / month** (Baseline DaaS control plane subscription) | **60-day free trial** for Citrix Cloud / DaaS evaluation supporting up to 25 test users (cloud infrastructure compute billed separately or BYO-cloud). | Enterprise hybrid-cloud VDI platform providing HDX remote display protocols, granular security policies, and virtualized app/desktop delivery. |
+| **[Omnissa Horizon Cloud](https://omnissa.com)** | **~$4.0B Acquisition Valuation** (~$1.5B ARR) | **$4.67 / user / month** (Horizon Apps) / **$5.79 / user / month** (Horizon Standard VDI subscription) | **30-day proof-of-concept / evaluation free trial** via Azure Marketplace / AWS Marketplace on-demand trial registration. | Cloud-managed VDI and published application platform scaling virtual desktops across Microsoft Azure, Amazon WorkSpaces Core, and on-premise vSphere. |
+| **[Paperspace Core (DigitalOcean)](https://paperspace.com)** | **~$4.5B Parent Market Cap** (DigitalOcean: ~$780M–$901M Annual Revenue) | **$0.0045 / hour** (C1 CPU VM) / **$0.45 / hour** (Entry Quadro/NVIDIA GPU workstation) | **No free tier/trial for Core VMs** (all provisioned Core desktops bill by the hour; free tier is restricted exclusively to Paperspace Gradient shared notebooks). | Cloud GPU virtual machine and desktop infrastructure offering low-latency browser streaming, persistent storage, and instant Linux/Windows workstation templates. |
+| **[Dizzion Frame](https://dizzion.com)** | **~$100M+ Est. Enterprise Value** (~$16.7M–$24.6M Annual Revenue; backed by LLR Partners) | **$21.00 / user / month** (Platform orchestration control plane) | **14-day assisted enterprise proof-of-concept / trial evaluation** via cloud partner consultation or AWS Marketplace PoC. | Browser-native Desktop-as-a-Service platform streaming GPU-accelerated Windows and Linux applications directly into HTML5 browsers without client plugins. |
+| **[Shadow PC](https://shadow.tech)** | **~€100M Est. Valuation** (~€20M Annual Revenue; Jezby Ventures / Synfonium) | **$29.99 / month** (Shadow PC Lite tier with dedicated Windows PC & GPU) | **No free trial or free tier available** (users must test bandwidth/latency via web diagnostics tool before subscribing). | High-performance cloud gaming and creative workstation service streaming dedicated Windows PCs equipped with discrete NVIDIA GPUs. |
+| **[AppOnFly](https://apponfly.com)** | **~$10M–$15M Est. Valuation** (~$1M–$10.6M Annual Platform Sales) | **$0.06 / hour** (Pay-as-you-go hourly) or **$11.90 / month** (Start VPS plan) | **20-to-30 minute free web test session** (non-persistent temporary session for testing web browser Windows access without registration). | Instant cloud Windows VPS and remote desktop platform accessible via browser or RDP for running Windows software on macOS, Linux, and mobile devices. |
+| **[V2 Cloud](https://v2cloud.com)** | **~$15M–$25M Est. Valuation** (~$6M–$10M Annual Revenue) | **$60.00 / month** (Standard User plan) | **7-day risk-free trial** (full feature access with no long-term contract; cancel anytime). | All-in-one managed Desktop-as-a-Service (DaaS) solution featuring built-in cloud storage, ransomware protection, and HTML5 web-client access. |
+| **[Kasm Workspaces (Enterprise Cloud)](https://kasmweb.com)** | **~$9.6M Est. Valuation** (~$2.8M–$3.0M Annual Revenue) | **$5.00 / user / month** (Commercial Enterprise Basic license) | **Community Edition is 100% Free Forever** (capped at **5 concurrent sessions**, self-hosted on community support with core containerized browser and Linux desktop streaming). | Containerized Desktop Infrastructure (CDI) platform streaming isolated browser sessions, Linux desktops, and remote Windows VMs directly to web browsers. |
 
 
 
